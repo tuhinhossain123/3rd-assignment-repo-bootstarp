@@ -11,8 +11,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!-- Font Awsome -->
-    <script src="https://kit.fontawesome.com/bbb8edd23b.js" crossorigin="anonymous"></script>
+  <!-- Font Awsome -->
+  <script src="https://kit.fontawesome.com/bbb8edd23b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -23,7 +23,7 @@
         <div>
           <h1 class="fs-1 h-25">Keystone Academy</h1>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -34,19 +34,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active" aria-current="page" href="#Home">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">courses</a>
+                  <a class="nav-link" href="#about us">about us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">about us</a>
+                  <a class="nav-link" href="#courses">courses</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">deals</a>
+                  <a class="nav-link" href="#deals">deals</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">sucesss</a>
+                  <a class="nav-link" href="#sucesss">sucesss</a>
                 </li>
               </ul>
               <form class="d-flex">
@@ -69,7 +69,7 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
             aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner" id="Home">
           <div class="carousel-item active mb-5">
             <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
@@ -109,7 +109,7 @@
   </header>
   <!-- heading section start here -->
   <main>
-    <section class="container course">
+    <section class="container course" id="courses">
       <h1 class="text-center fs-1">Introduce our popular courses</h1>
       <p class="text-center fs-5">There are lot of student in our institute who complte those course easily and they
         fell very happy about our service.<br>If you want you can watch our course and discuss your friend.</p>
@@ -190,7 +190,7 @@
         <div class="col-lg-6">
           <img class="img-fluid" src="images/working.png" alt="">
         </div>
-        <div class="col-lg-6 mt-5">
+        <div class="col-lg-6 mt-5" id="about us">
           <h1>Explore the e-learning institute</h1>
           <p>Find Online Screenwriting Course at Shopwebly, the Website to Compare Prices! Find and Compare Online
             Screenwriting Course Online. Save Now at Shopwebly! Compare Products. Quick Results. Find Easily. Many
@@ -264,7 +264,7 @@
 
 
     <!-- meet our successfull student start here -->
-    <section class="container meet-student">
+    <section class="container meet-student" id="sucesss">
       <h1>Meet our successfull student</h1>
       <p class="fs-5">There are lot of tropper student in our institute.They do great result in our institute</p>
       <div class="row g-2">
@@ -375,66 +375,90 @@
     </section>
 
     <!-- Frequently Asked Question start here -->
-    <section class="container  accordion-1">
+    <section class="container  accordion-1" id="deals">
       <h1 class="text-center ">Frequently Asked Question</h1>
       <p class="text-center fs-5">If you want you can try to do some question .which refresh your mind properly .<br>its
         needer for you as a beginer .Try it i thing you do better from another</p>
 
-       <div class="mt-5">
+      <div class="mt-5">
         <div class="accordion" id="accordionPanelsStayOpenExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
                 What are the different between flex and grid?
               </button>
             </h2>
-            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+              aria-labelledby="panelsStayOpen-headingOne">
               <div class="accordion-body">
-                <strong>The different of flex and grid</strong> The CSS Flex offers a one-dimensional layout. It is helpful in allocating and aligning the space among items in a container (made of grids). It works with all kinds of display devices and screen sizes and the Grid Layout, is a two-dimensional grid-based layout system with rows and columns, making it easier to design web pages without having to use floats and positioning. Like tables, grid layout allow us to align elements into columns and rows.
+                <strong>The different of flex and grid</strong> The CSS Flex offers a one-dimensional layout. It is
+                helpful in allocating and aligning the space among items in a container (made of grids). It works with
+                all kinds of display devices and screen sizes and the Grid Layout, is a two-dimensional grid-based
+                layout system with rows and columns, making it easier to design web pages without having to use floats
+                and positioning. Like tables, grid layout allow us to align elements into columns and rows.
 
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo">
                 Whatis the different between Bootstap and Tailewinde?
               </button>
             </h2>
-            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingTwo">
               <div class="accordion-body">
-                <strong>the different between Bootstrao and Tailwind is</strong> Bootstrap as "Simple and flexible HTML, CSS, and JS for popular UI components and interactions". Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. On the other hand, Tailwind CSS is detailed as "A utility-first CSS framework for rapid UI development". Tailwind is different from frameworks like Bootstrap.
+                <strong>the different between Bootstrao and Tailwind is</strong> Bootstrap as "Simple and flexible HTML,
+                CSS, and JS for popular UI components and interactions". Bootstrap is the most popular HTML, CSS, and JS
+                framework for developing responsive, mobile first projects on the web. On the other hand, Tailwind CSS
+                is detailed as "A utility-first CSS framework for rapid UI development". Tailwind is different from
+                frameworks like Bootstrap.
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
                 What is CSS Box model?
               </button>
             </h2>
-            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingThree">
               <div class="accordion-body">
-                <strong>Css Box Model is.</strong> The CSS box model is a container that contains multiple properties including borders, margin, padding, and the content itself. It is used to create the design and layout of web pages. It can be used as a toolkit for customizing the layout of different elements.
+                <strong>Css Box Model is.</strong> The CSS box model is a container that contains multiple properties
+                including borders, margin, padding, and the content itself. It is used to create the design and layout
+                of web pages. It can be used as a toolkit for customizing the layout of different elements.
 
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
                 What is Semantic tag?
               </button>
             </h2>
-            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingThree">
               <div class="accordion-body">
-                <strong>semantic tag is</strong> The core characteristic of a semantic element is that it clearly communicated its meaning to both the developer and the browser. These elements clearly define its content.
+                <strong>semantic tag is</strong> The core characteristic of a semantic element is that it clearly
+                communicated its meaning to both the developer and the browser. These elements clearly define its
+                content.
               </div>
             </div>
           </div>
         </div>
-       </div>
-        <!-- Frequently Asked Question end here -->
+      </div>
+      <!-- Frequently Asked Question end here -->
     </section>
 
 
@@ -467,7 +491,17 @@
 
   </main>
   <footer>
-
+    <section class="container mt-5 bg-dark">
+      <div class="text-center text-white pt-5 pb-5">
+        <h2>Keystone Academy</h2>
+      <p>office 41 ,Cumilla Chittagong</p>
+      <p>Privacy policy | Terms of use</p>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-square-twitter"></i>
+      <i class="fa-brands fa-whatsapp"></i>
+      </div>
+    </section>
   </footer>
 
 
